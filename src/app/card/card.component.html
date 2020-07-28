@@ -1,0 +1,5 @@
+<div class="card" (click)="compareNumbers($event)" [ngClass]="{'selected': data.selected, 'view': data.view}">
+  <span [ngClass]="{'hide': data.hide}">
+      {{data.hide ? '' : data.value}}
+  </span>
+</div>

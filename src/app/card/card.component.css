@@ -1,0 +1,31 @@
+.card {
+  cursor: pointer;
+  width: 80px;
+  margin: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  height: 80px;
+  border: 1px solid #dedede;
+  box-shadow: 0 0 4px #dcdcdc;
+}
+
+.card:hover {
+  background-color: #f6f6f6;
+}
+
+.selected {
+  box-shadow: 0 0 6px #bd7bff;
+  background-color: #f6f6f6;
+}
+
+.view {
+  box-shadow: 0 0 10px #99fca2;
+  background-color: #f6f6f6;
+}
+
+.hide {
+  display: none;
+}
